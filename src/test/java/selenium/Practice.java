@@ -95,7 +95,7 @@ public class Practice {
 	  Assert.assertEquals(4, NumberofItems);
 	  }
 	  
-	  @Test(priority = 4, timeOut = 10000) 
+	  @Test(priority = 4) 
 	  public void SearchValue() throws Exception {
 		  
 		  driver.findElement(By.linkText("Log in")).click();
